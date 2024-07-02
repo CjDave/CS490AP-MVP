@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
+.DEInput_Class {
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 300px;
+    height: 35px;
+}
+
+.DEButton_Class {
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 40px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+
+}
+
+.DEFormText_Class {
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 40px;
+
+}
+
+.DEInput_Class {
+    border-radius: 14px;
+    border: 2px solid black;
+    padding-left: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.DEFormText_Class {
+    background-color: transparent;
+    border-radius: 0px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    align-self: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.DEFormTextLarge_Class {
+    background-color: transparent;
+    border-radius: 0px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    margin: 0px;
+    margin-left: 10px;
+    padding: 0px;
+    line-height: 40px;
+    width: 170px;
+}
+
+.DEFormGroup_Class {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.DEFormGroupButton_Class {
+    margin-top: 10px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+    margin-left: 40px;
+
+}
+
+.DETextHref_Class {
+    color: green;
+    text-decoration: underline;
+    font-family: 'Roboto', sans-serif;
+}
+
+.DEErrorMsg_Class {
+    color: red;
+}
+
+.DELargeHeader_Class {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    line-height: 40px;
+    letter-spacing: 1.2px;
+    margin-left: 150px;
+}
+
+.DEMainFrame_Class {
+    display: flex;
+    flex-direction: row;
+}
+
+.DEMainFrameImage_Class {
+    height: 250px;
+}
+
+.DEMainFrameText_Class {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.DEHeader_Class {
+    background-color: white;
+    width: 100vw;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    margin: 0px;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.headerMascot {
+    height: 60px;
+}
+
+.headerMascotText {
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logoutDiv {
+    align-self: end;
+    justify-self: end;
+    position: fixed;
+    right: 0;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.logoutIcon {
+    height: 30px;
+    width: 25px;
+    align-self: center;
+    border-radius: 50%;
+    margin: 0px;
+}
+
+.logoutText {
+    font-size: 13px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    text-decoration: underline;
+}
+
+.ViewCourseCard {
+    height: 150px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    row-gap: 6px;
+}
+
+.ViewCourseImage {
+    width: 100%;
+    height: 40%;
+    object-fit: cover;
+}
+
+.ViewCourseTitle {
+    font-size: 16px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    height: 20px;
+    width: 190px;
+    text-align: center;
+
+}
+
+.ViewCourseInfo {
+    font-size: 10px;
+    color: gray;
+    margin-top: 20px;
+
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    letter-spacing: 0.3px;
+}
+
+.ViewCourseHref {
+    margin-top: 10px;
+    font-size: 13px;
+    color: green;
+    text-decoration: underline;
+    font-family: 'Roboto', sans-serif;
+}
+
+.addCourseDiv {
+    width: 150px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    border-radius: 20px;
+    border: solid 2px black;
+    justify-self: end;
+    align-self: center;
+    background-color: white;
+
+}
+
+.addCourseImage {
+
+    width: 70px;
+    height: 80px;
+    align-self: center;
+}
+
+.addCourseText {
+    font-size: 16px;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    align-self: center;
+    text-decoration: underline;
+    color: green;
+}
+
+.studentsListClass {
+    height: 100px;
+    width: 325px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+
+    margin: 0px;
+    overflow-y:auto;
+    padding-top: 20px;
+    padding-bottom:-20px ;
+    
+}
+
+.studentsUI {
+    margin: 0px;
+    height: 30px;
+    width: 160px;
+    border-radius: 25px;
+    border: solid 2px black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+#canvasToolButton {
+    margin-top: 10px;
+    display: flex;
+    column-gap: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+.colourPickerDiv{
+    display: flex;
+    column-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: white;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    background-color: rgb(75, 107, 133);
+    margin-left: 0px;
+    width: 200px;
+}
+.colourPickerText{
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    text-align: center;
+    color: black;
+    font-weight: 500;  
+}
+.menuButton {
+    margin-right: 3px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.menuButton.active {
+    background-color: #ffcc00;
+}
+
+.menuButton:hover {
+    background-color: #ffcc00;
+}

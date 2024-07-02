@@ -1,0 +1,56 @@
+project-root/
+│
+├── client/
+│   ├── src/
+│   │   ├── assets/
+│   │   │   ├── addIcon.png
+│   │   │   ├── addIcon2.png
+│   │   │   ├── background.png
+│   │   │   ├── c1.jpg
+│   │   │   ├── c2.jpg
+│   │   │   ├── c3.png
+│   │   │   ├── c4.jpg
+│   │   │   ├── loginImage.png
+│   │   │   ├── logoutIcon.png
+│   │   │   ├── mascot.png
+│   │   │   ├── noteIcon.png
+│   │   │   └── temp.jpg
+│   │   ├── css/
+│   │   │   ├── App.css
+│   │   │   ├── components.css
+│   │   │   ├── courseDetailPage.css
+│   │   │   ├── createCoursePage.css
+│   │   │   ├── homePage.css
+│   │   │   ├── index.css
+│   │   │   └── LoginPage.css
+│   │   ├── jsx/
+│   │   │   ├── components.jsx
+│   │   │   ├── courseDetailPage.jsx
+│   │   │   ├── CreateAccountPage.jsx
+│   │   │   ├── createCoursePage.jsx
+│   │   │   ├── homePage.jsx
+│   │   │   ├── index.jsx
+│   │   │   └── LoginPage.jsx
+│   │   └── logic/
+│   │       ├── api.js
+│   │       ├── firebase.js
+│   │       └── utils.js
+│   ├── .eslintrc.cjs
+│   ├── .gitignore
+│   ├── cors.json
+│   ├── courseDetail.html
+│   ├── createAccount.html
+│   ├── createCourse.html
+│   ├── homePage.html
+│   ├── index.html
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── tailwind.config.js
+│   └── vite.config.js
+│
+└── cloud/
+    ├── .gitignore
+    ├── app.yaml
+    ├── package-lock.json
+    ├── package.json
+    └── server.js
