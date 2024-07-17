@@ -6,18 +6,9 @@ import { ref, uploadBytesResumable, getDownloadURL, getStorage } from 'firebase/
 import { getDatabase, push, ref as databaseRef } from 'firebase/database';
 import { getFirestore } from "firebase/firestore";
 
-// Firebase configuration
-// Mean't to be private
-// But I could not think of a way to share my file without disclosing this
+
 const firebaseConfig = {
-    apiKey: "AIzaSyAcbJYY5cCHWPyf1u62eq-UIpbrMtWLaEE",
-    authDomain: "cs490ap.firebaseapp.com",
-    databaseURL: "https://cs490ap-default-rtdb.firebaseio.com",
-    projectId: "cs490ap",
-    storageBucket: "cs490ap.appspot.com",
-    messagingSenderId: "216777373794",
-    appId: "1:216777373794:web:f3eea8a98ea038fb79393b",
-    measurementId: "G-SGN59VKKS6"
+
 };
 
 // init Firebase
